@@ -1,0 +1,11 @@
+<h2 class="text-center mb-4">Carrito de Compras</h2>
+
+<div>
+    @for (item of cartList; track item.name) {
+        <div class="cartProductContainer">
+            <p>Nombre:{{item.name}}</p>
+            <p>Cantidad:{{item.quantity}}</p>
+            <button type="button" class="btn btn-danger" (click)="removeFromCart(item)">Quitar del carrito</button>
+        </div>
+    }
+</div>

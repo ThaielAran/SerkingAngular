@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  protected title = 'serking';
+  protected title = 'Distribuidora Serking';
 }
